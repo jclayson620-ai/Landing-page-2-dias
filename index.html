@@ -1,118 +1,271 @@
 <!doctype html>
-<html lang="pt-MZ">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>21 Dias para Vencer a Pornografia — 149 MT</title>
-  <meta name="description" content="Desafio prático de 21 dias para recuperar o controle mental e emocional. Compra via WhatsApp: +258 878990855" />
+  <title>21 Dias para Vencer a Pornografia — R$ 19,90</title>
+
+  <meta name="description" content="Desafio prático de 21 dias para se libertar da pornografia e recuperar foco, autocontrole e dignidade. Compra segura pela Hotmart." />
+
   <style>
     :root{
       --bg:#0f1720;
-      --card:#0f1720;
       --accent:#ff5b2b;
       --muted:#cbd5e1;
       --white:#ffffff;
       --maxw:760px;
     }
+
     *{box-sizing:border-box}
+
     body{
-      margin:0; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      background: linear-gradient(180deg,#071021 0%, #0f1720 100%); color:var(--muted);
-      display:flex; align-items:center; justify-content:center; min-height:100vh; padding:24px;
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      background: linear-gradient(180deg,#071021 0%, #0f1720 100%);
+      color:var(--muted);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+      padding:24px;
     }
-    .wrap{width:100%; max-width:var(--maxw); background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      border-radius:12px; padding:20px; box-shadow: 0 10px 30px rgba(2,6,23,0.6); border:1px solid rgba(255,255,255,0.03);
+
+    .wrap{
+      width:100%;
+      max-width:var(--maxw);
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;
+      padding:20px;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6);
     }
-    .grid{display:grid; grid-template-columns: 1fr 320px; gap:20px; align-items:center;}
-    @media (max-width:880px){ .grid{grid-template-columns:1fr} .cover{order:-1}}
-    .title{color:var(--white); font-size:22px; font-weight:700; margin:0 0 8px}
-    .subtitle{color:var(--muted); margin:0 0 16px; font-size:15px}
-    .lead{color:#e6eef8; font-size:16px; line-height:1.45; margin:0 0 14px}
-    .bullets{list-style:none; padding:0; margin:12px 0 18px}
-    .bullets li{margin:8px 0; font-weight:600; color:var(--muted)}
-    .price{display:flex; align-items:baseline; gap:12px; margin:14px 0}
-    .price .tag{background:rgba(255,91,43,0.12); color:var(--accent); padding:8px 12px; border-radius:8px; font-weight:800}
-    .price .small{color:var(--muted); font-size:13px}
+
+    .grid{
+      display:grid;
+      grid-template-columns:1fr 320px;
+      gap:20px;
+    }
+
+    @media(max-width:880px){
+      .grid{grid-template-columns:1fr}
+      .cover{order:-1}
+    }
+
+    .title{
+      color:var(--white);
+      font-size:24px;
+      font-weight:800;
+      margin:0 0 8px;
+    }
+
+    .subtitle{
+      font-size:15px;
+      margin-bottom:16px;
+      line-height:1.4;
+    }
+
+    .lead{
+      font-size:16px;
+      margin-bottom:16px;
+      color:#e6eef8;
+    }
+
+    ul{
+      list-style:none;
+      padding:0;
+      margin:0 0 16px;
+      font-weight:600;
+    }
+
+    li{margin-bottom:6px}
+
+    .price{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      margin:14px 0;
+    }
+
+    .tag{
+      background:rgba(255,91,43,0.12);
+      color:var(--accent);
+      padding:8px 14px;
+      border-radius:8px;
+      font-weight:900;
+      font-size:18px;
+    }
+
+    .small{
+      font-size:13px;
+    }
+
     .cta{
-      display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top:10px;
     }
+
     .btn{
-      display:inline-flex; align-items:center; justify-content:center; gap:10px;
-      padding:12px 16px; border-radius:10px; font-weight:700; text-decoration:none;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:14px 16px;
+      border-radius:10px;
+      font-weight:900;
+      text-decoration:none;
+      min-width:220px;
     }
-    .btn-primary{background:var(--accent); color:#fff; box-shadow: 0 6px 20px rgba(255,91,43,0.28);}
-    .btn-ghost{background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.06)}
-    .note{font-size:13px; color: #9fb0c9; margin-top:8px}
-    .cover img{width:100%; border-radius:10px; display:block; box-shadow: 0 8px 30px rgba(2,6,23,0.7)}
-    .testimonials{margin-top:16px}
-    .testimonials blockquote{background:rgba(255,255,255,0.02); padding:12px; border-radius:8px; margin:8px 0; color:var(--muted); font-weight:600}
-    .faq{margin-top:16px}
-    .faq h4{color:var(--white); margin:8px 0 6px; font-size:15px}
-    .footer{margin-top:20px; font-size:13px; color:#7f98b3}
-    .small-muted{font-size:12px; color:#9fb0c9}
+
+    .btn-primary{
+      background:var(--accent);
+      color:#fff;
+      box-shadow:0 6px 20px rgba(255,91,43,0.28);
+    }
+
+    .btn-secondary{
+      background:transparent;
+      color:var(--muted);
+      border:1px solid rgba(255,255,255,0.1);
+    }
+
+    .note{
+      margin-top:8px;
+      font-size:13px;
+      color:#9fb0c9;
+    }
+
+    .cover img{
+      width:100%;
+      border-radius:12px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.6);
+    }
+
+    .testimonials{
+      margin-top:18px;
+    }
+
+    blockquote{
+      background:rgba(255,255,255,0.03);
+      padding:10px;
+      border-radius:8px;
+      margin:8px 0;
+      font-size:14px;
+      font-weight:600;
+    }
+
+    .faq{
+      margin-top:16px;
+    }
+
+    h4{
+      margin:6px 0 2px;
+      color:var(--white);
+    }
+
+    .small-muted{
+      font-size:12px;
+      color:#9fb0c9;
+      margin-bottom:8px;
+    }
+
+    .footer{
+      margin-top:16px;
+      font-size:12px;
+      color:#7f98b3;
+    }
+
   </style>
 </head>
 <body>
-  <main class="wrap" role="main">
-    <div class="grid">
-      <div>
-        <h1 class="title">21 Dias para Vencer a Pornografia</h1>
-        <p class="subtitle">Um desafio prático e discreto para recuperar foco, disciplina e liberdade mental — em apenas 21 dias.</p>
-        <p class="lead">Programa diário com passos rápidos (5–10 min/dia), declarações de reprogramação e um plano de emergência para quando o desejo bater forte. Feito para quem já tentou sozinho e quer um método simples e eficiente.</p>
 
-        <ul class="bullets">
-          <li>✅ 21 capítulos com ação diária</li>
-          <li>✅ Checklist anti-recaída e plano de crise</li>
-          <li>✅ Linguagem direta, sem julgamentos</li>
-          <li>✅ Entrega imediata em PDF</li>
-        </ul>
+<main class="wrap">
+  <div class="grid">
 
-        <div class="price">
-          <div class="tag">🔥 149 MT</div>
-          <div class="small">Pagamento único — entrega imediata</div>
-        </div>
+    <div>
 
-        <div class="cta">
-          <a class="btn btn-primary" href="https://wa.me/258878990855?text=Quero%20o%20ebook%20%2221%20Dias%20para%20Vencer%20a%20Pornografia%22%20(pago%20149%20MT)" target="_blank" rel="noopener">
-            EU QUERO SER LIVRE AGORA
-          </a>
-          <a class="btn btn-ghost" href="https://wa.me/258878990855?text=Tenho%20uma%20pergunta%20sobre%20o%20ebook" target="_blank" rel="noopener">Tenho uma dúvida — Falar no WhatsApp</a>
-        </div>
+      <h1 class="title">21 Dias para se Libertar da Pornografia</h1>
 
-        <p class="note">Atendimento 100% privado e discreto. Respondo pessoalmente por WhatsApp e envio o ebook após confirmação do pagamento.</p>
+      <p class="subtitle">
+        Um método direto para recuperar controle mental, foco e disciplina em apenas
+        21 dias — de forma 100% discreta.
+      </p>
 
-        <section class="testimonials" aria-label="Depoimentos">
-          <blockquote><strong>Carlos, 26:</strong> “Em poucos dias senti mais controle. Simples e direto.”</blockquote>
-          <blockquote><strong>Mateus, 21:</strong> “Os exercícios mudaram minha rotina — hoje caio menos nos gatilhos.”</blockquote>
-          <blockquote><strong>Joel, 30:</strong> “É como um treinador de mente. Recomendo.”</blockquote>
-        </section>
+      <p class="lead">
+        Criado para homens que já tentaram parar sozinhos e se frustraram.
+        São apenas 5 minutos por dia com exercícios práticos para quebrar o ciclo do vício.
+      </p>
 
-        <section class="faq" aria-label="Perguntas frequentes">
-          <h3 class="title" style="font-size:18px; margin-top:14px">FAQ</h3>
-          <h4>É discreto?</h4>
-          <p class="small-muted">Totalmente. O atendimento e o envio do ebook via WhatsApp são privados.</p>
+      <ul>
+        <li>✅ Desafio diário de reprogramação mental</li>
+        <li>✅ Checklist anti-recaída</li>
+        <li>✅ Plano de emergência para momentos de tentação</li>
+        <li>✅ Linguagem simples, direta e sem julgamentos</li>
+        <li>✅ Download imediato em PDF</li>
+      </ul>
 
-          <h4>Quanto tempo por dia?</h4>
-          <p class="small-muted">5 a 10 minutos; textos curtos e ações práticas.</p>
-
-          <h4>Já tentei parar antes — vai funcionar?</h4>
-          <p class="small-muted">Funciona para quem aplica o método. Este é um plano guiado — não apenas teoria.</p>
-
-          <h4>O conteúdo é religioso?</h4>
-          <p class="small-muted">Não. O enfoque é prático, psicológico e comportamental.</p>
-        </section>
-
-        <div class="footer">
-          <p class="small-muted">Preço: 149 MT • Entrega imediata via WhatsApp</p>
-          <p style="margin-top:8px">Número de contato: <strong>+258 87 899 0855</strong></p>
-        </div>
+      <div class="price">
+        <div class="tag">🔥 R$ 19,90</div>
+        <div class="small">Pagamento único • Acesso imediato</div>
       </div>
 
-      <aside class="cover">
-        <!-- Substitua 'cover.png' pelo nome do ficheiro da sua capa no repositório -->
-        <img src="cover.png" alt="Capa do ebook 21 Dias para Vencer a Pornografia">
-      </aside>
+      <div class="cta">
+        <a class="btn btn-primary"
+           href="https://go.hotmart.com/X103357881I?dp=1"
+           target="_blank">
+           COMPRAR AGORA — ACESSO IMEDIATO
+        </a>
+
+        <a class="btn btn-secondary"
+           href="https://wa.me/258878990855"
+           target="_blank">
+           Suporte via WhatsApp
+        </a>
+      </div>
+
+      <p class="note">
+        ✅ Compra segura pela Hotmart • Receba automaticamente após pagamento
+      </p>
+
+      <section class="testimonials">
+        <blockquote>“Nunca pensei que conseguiria passar semanas sem recaídas.” — André, 24</blockquote>
+        <blockquote>“O método é simples e só funciona porque é prático.” — Lucas, 29</blockquote>
+        <blockquote>“Hoje tenho muito mais foco e respeito comigo mesmo.” — Rafael, 32</blockquote>
+      </section>
+
+      <section class="faq">
+        <h4>Isso é discreto?</h4>
+        <p class="small-muted">
+          Sim. A compra e o acesso são totalmente privados pela Hotmart.
+        </p>
+
+        <h4>Quanto tempo por dia?</h4>
+        <p class="small-muted">
+          Apenas 5 minutos.
+        </p>
+
+        <h4>É conteúdo religioso?</h4>
+        <p class="small-muted">
+          Não. A abordagem é comportamental e psicológica.
+        </p>
+
+        <h4>Serve pra quem já tentou parar?</h4>
+        <p class="small-muted">
+          Sim. O método é estruturado exatamente para quem falhou sozinho.
+        </p>
+      </section>
+
+      <div class="footer">
+        © 2025 • Produto digital entregue automaticamente via Hotmart
+      </div>
+
     </div>
-  </main>
+
+    <aside class="cover">
+      <img src="cover.png" alt="Capa do ebook 21 Dias para se Libertar da Pornografia">
+    </aside>
+
+  </div>
+</main>
+
 </body>
-  </html>
+        </html>
